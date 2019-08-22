@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0349AAE15223B975FF7B01F5 /* Pods-THUXAuth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THUXAuth_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THUXAuth_Example/Pods-THUXAuth_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		297EB083615DB36A8626A541 /* Pods-THUXAuth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THUXAuth_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THUXAuth_Tests/Pods-THUXAuth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5895020A6F776750738BC180 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5895020A6F776750738BC180 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* THUXAuth_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THUXAuth_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		89098FA9082B4D07795EA3B7 /* Pods_THUXAuth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THUXAuth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9338766A7D76A5507B48230B /* Pods_THUXAuth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THUXAuth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68ADDC89A4A3668D5AF3515 /* Pods-THUXAuth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THUXAuth_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-THUXAuth_Example/Pods-THUXAuth_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B8F2AA2ACA2E6CABDD9D5CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FA8AE0CAF6CB43A80274CE59 /* THUXAuth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = THUXAuth.podspec; path = ../THUXAuth.podspec; sourceTree = "<group>"; };
+		B8F2AA2ACA2E6CABDD9D5CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA8AE0CAF6CB43A80274CE59 /* THUXAuth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = THUXAuth.podspec; path = ../THUXAuth.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

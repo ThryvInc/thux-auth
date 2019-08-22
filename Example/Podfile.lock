@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+  - THUXAuth (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - THUXAuth (from `../`)
+
+EXTERNAL SOURCES:
+  THUXAuth:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  THUXAuth: a4122128b280b74bf601144021f4605819f231e1
+
+PODFILE CHECKSUM: 27c2bde1b93bf5a5d20d16eadbbaf877e3de572b
+
+COCOAPODS: 1.4.0

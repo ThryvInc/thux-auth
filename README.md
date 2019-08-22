@@ -22,7 +22,7 @@ pod 'THUXAuth'
 
 ## Author
 
-Elliot, elliot.schrock@gmail.com
+Elliot Schrock, @elliot_schrock on Twitter
 
 ## License
 

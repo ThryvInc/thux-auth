@@ -72,12 +72,18 @@ open class THUXUserDefaultsSession: THUXSession {
     }
     
     open func authHeaders() -> [String: String]? {
-        return [authHeaderKey: UserDefaults.standard.string(forKey: host) ?? ""]
+        guard let authToken = UserDefaults.standard.string(forKey: host) else {
+            return nil
+        }
+        return [authHeaderKey: authToken]
     }
     
     open func setAuthValue(authString: String) {
         UserDefaults.standard.set(authString, forKey: host)
-        UserDefaults.standard.synchronize()
+    }
+
+    open func clearAuthValue() {
+        UserDefaults.standard.removeObject(forKey: host)
     }
     
     open func isAuthenticated() -> Bool {
